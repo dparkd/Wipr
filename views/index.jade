@@ -1,0 +1,61 @@
+extends layout
+
+block content
+	.jumbotron.main-header
+		.row.text-center
+			h1 The whiteboard critique made simple
+			p Wipr makes sharing and critiqueing projects easier.
+			p Get feedback faster. Get real notes. Complete with confidence.
+			a( class='btn btn-clear blue-box' data-toggle='modal' data-target='#signup-modal') Sign up for Beta Access
+			//- a(href='#' class='no-btn') Learn More
+
+	.jumbotron.feature.collaborate
+		.row
+			.col-md-7
+				h2 Get better and quicker feedback
+				p When you sign up for wipr, you have access to conduct or receive a critique at your own pace. Wipr aims to streamline your design process whether that be during production or review. With faster access to critiques and projects you are able to give/take feedback and then create a project that truly shines.
+			.col-md-5.text-right
+				img(src='../images/gallery.jpg')
+	.jumbotron.cta-small
+		.row.text-center
+			h4 Get exclusive access to the greatest student community
+			a(data-toggle='modal' data-target='#signup-modal' class='btn flat-btn-red') Sign up for Beta Access
+			a(href='#' class='no-btn') Learn More
+	.jumbotron.feature.complete
+		.row
+			.col-md-12.text-center
+				h2 All of the critiquing tools
+				p.small-p When you are giving or receiving a critique you want the best tools. Wipr includes features that are a household standard in any critique environment.
+				hr
+			.col-md-4.text-center
+				h4 Drawing
+				p In every critique you need to be able to show your thoughts visually.
+				.col-md-12.img-box
+					img(src='../images/icons/draw.svg' style='padding-top:9px;')
+			.col-md-4.text-center
+				h4 Discussing
+				p While critiquing it's important for the reviewee to defend their design choices.
+				.col-md-12.img-box
+					img(src='../images/icons/collaborate.svg')
+			.col-md-4.text-center
+				h4 Sharing
+				p The more critiques, the more data you have to iterate your project.
+				.col-md-12.img-box
+					img(src='../images/icons/send.svg' style='padding-top:6px;')
+	
+	
+	div(class='modal fade' id='signup-modal' tabindex='-1' role='dialog' aria-labelledby='signup-modal' aria-hidden='true')
+		.modal-dialog
+			.modal-content
+				.modal-body.text-center
+					h4 Beta will be coming soon!
+					hr
+					p Daniel is working really hard to get this project ready for you.
+					p If you would like to encourage him, send him a tweet @itsdpark
+
+
+
+
+
+
+
